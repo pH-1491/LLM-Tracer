@@ -100,7 +100,7 @@ public:
         record_.complete   = false;
     }
 
-    // Non-copyable (holds unique ownership of the timing slot)
+
     ScopeTimer(const ScopeTimer&)            = delete;
     ScopeTimer& operator=(const ScopeTimer&) = delete;
 
